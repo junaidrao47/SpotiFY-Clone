@@ -1,0 +1,63 @@
+
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+
+.bg-gray{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+.border{
+    border: solid red 3px;
+    margin: 3px;
+    /* margin: 32px;*/
+    border-radius: 32px;
+    width: 200px; 
+    
+}
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #666;
+  }
+  
+  /* For Firefox */
+  /* You may need to use a browser-specific prefix for Firefox scrollbar styling */
+  /* For example, Mozilla Firefox requires the -moz prefix */
+  
+  /* For Edge and IE */
+  /* You may need to use a browser-specific prefix for Edge and IE scrollbar styling */
+  /* For example, Microsoft Edge requires the -ms prefix */
+  

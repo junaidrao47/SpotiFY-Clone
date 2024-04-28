@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" sizes="32x32" type="image/png"
+        href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="Home bg-gray rounded m-1 p-1">
+                <div class="logo">
+                    <img class="invert" src="logo.svg" alt="Logo">
+                </div>
+                <ul>
+                    <li><img class="invert" src="Home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="Library bg-gray rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="library.svg" alt="Library">
+                    <h2>Your Library</h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+                        <li>
+                            <img class="invert" src="music.svg" alt="music">
+                            <div class="songinfo">
+                            <div>Song Name</div>
+                            <div>Song Artis</div>
+                            </div>
+                            <div>Play Now</div>
+                            <!-- <img class="Play1" src="Play.svg" alt="Play"> -->
+                        </li>
+                    
+                    </ul>
+
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/sg-en/legal/">Legal</a></div>
+                    <div><a href="https://www.spotify.com/sg-en/privacy/">Privacy Center</a></div>
+                    <div><a href="https://www.spotify.com/sg-en/legal/privacy-policy/">Privacy Policy</a></div>
+                    <div><a href="https://www.spotify.com/sg-en/legal/cookies-policy/">Cookies</a></div>
+                    <div><a href="https://www.spotify.com/sg-en/legal/privacy-policy/#s3">About Ads</a></div>
+                    <div><a href="https://www.spotify.com/sg-en/accessibility/">Accessibility</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-gray rounded">
+            <div class="header">
+                <div class="nav">
+                    <img class="invert" src="backword.svg" alt="backward">
+                    <img class="invert" src="forword.svg" alt="forward">
+                </div>
+                <div class="buttons">
+                    <button class="Signupbtn">Sign up</button>
+                    <button class="Loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyplaylist">
+                <h1 id="heading">Spotify Playlists</h1>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <div class="Play"><img src="Play.svg" alt="Play"></div>
+
+                        <img src="imges/1st.jpeg" alt="Lofi Beats">
+                        <h2>lofi beats</h2>
+                        <p>chill beats, lofi vibes, new tracks every week...</p>
+                    </div>
+                    <div class="card">
+                        <div class="Play"><img src="Play.svg" alt="Play"></div>
+
+                        <img src="imges/1st.jpeg" alt="Lofi Beats">
+                        <h2>lofi beats</h2>
+                        <p>chill beats, lofi vibes, new tracks every week...</p>
+                    </div>
+                    <div class="card">
+                        <div class="Play"><img src="Play.svg" alt="Play"></div>
+
+                        <img src="imges/1st.jpeg" alt="Lofi Beats">
+                        <h2>lofi beats</h2>
+                        <p>chill beats, lofi vibes, new tracks every week...</p>
+                    </div>
+                </div>
+                <div class="playbar">
+                        <div class="seekbar">
+                            <div class="circle"></div>
+                        </div>
+                            <div class="SONGINFO">
+                                <div class="s1">Song Name</div>
+                               <div class="starttime"></div>
+                               <div class="endtime"></div>
+                            </div>
+
+                    <div class="songbtn">
+                        <img class="invert prev" src="prevsong.svg" alt="back">
+                        <img id="play" src="play1.svg" alt="play">
+                        <img class="invert nxt" src="nextsong.svg" alt="nextsong">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
